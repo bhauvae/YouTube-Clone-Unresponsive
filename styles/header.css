@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+ 
+}
+button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.hamburger-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.youtube-icon {
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.middle-section {
+  flex: 1;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+  
+}
+.search-bar {
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 0px;
+  height: 30px;
+  width: 0;
+  padding: 0px;
+  border: none;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.search-bar::placeholder{
+  font-family: Roboto;
+  font-size: 14px;
+}
+.search-button {
+  height: 30px;
+  width: 30px;
+  margin-left: 0;
+  padding: 10px;
+  background-color: rgb(51, 51, 51);
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
+}
+.voice-search-button {
+  height: 30px;
+  background-color: none;
+  margin-left: 10px;
+}
+
+.voice-search-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-items: end;
+  flex-shrink: 0;
+}
+.settings-button{
+  margin-right: 0px;
+}
+.settings-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  margin-right: 0px;
+}
+
+.right-section .user-profpic {
+  width: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
